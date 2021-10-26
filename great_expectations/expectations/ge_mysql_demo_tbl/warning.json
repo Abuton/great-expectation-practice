@@ -1,0 +1,32 @@
+{
+  "data_asset_type": "Dataset",
+  "expectation_suite_name": "ge_mysql_demo_tbl.warning",
+  "expectations": [
+    {
+      "expectation_type": "expect_table_column_count_to_equal",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "value": 5
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_table_columns_to_match_ordered_list",
+      "ge_cloud_id": null,
+      "kwargs": {
+        "column_list": [
+          "name",
+          "station_id",
+          "length_total",
+          "flow_total",
+          "n_obs_total"
+        ]
+      },
+      "meta": {}
+    }
+  ],
+  "ge_cloud_id": null,
+  "meta": {
+    "great_expectations_version": "0.13.39"
+  }
+}

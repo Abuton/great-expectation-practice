@@ -1,0 +1,13 @@
+name: my_checkpoint
+config_version:
+module_name: great_expectations.checkpoint
+class_name: LegacyCheckpoint
+validation_operator_name:
+batches:
+  - batch_kwargs:
+      table: agg_metric_view1
+      schema: Sensor_DW
+      data_asset_name: agg_metric_view1
+      datasource: my_mysql_db
+    expectation_suite_names:
+      - ge_mysql_demo_tbl.warning
