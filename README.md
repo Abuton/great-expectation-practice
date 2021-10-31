@@ -21,3 +21,5 @@ Testing is an important part of any system/platform/pipeline. As a Data Engineer
 `great_expectations docs build --site-name local_site` - the command will generate an html page that shows test documentation that we have written so far.
 
 Learn more here:: [Great Expectation Documentation](https://docs.greatexpectations.io/docs/)
+
+or here: [legacy documentation tutorial](https://legacy.docs.greatexpectations.io/en/latest/guides/tutorials/quick_start.html)
